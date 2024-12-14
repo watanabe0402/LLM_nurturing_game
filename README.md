@@ -1,7 +1,6 @@
 # LLM_nurturing_game
-LLMを用いた育成ゲーム
-
-このプロジェクトは、AIを活用したインタラクティブなキャラクターシミュレーションゲームです。ユーザーは独自のキャラクターを作成し、そのキャラクターと対話しながら、様々な環境でストーリーを展開することができます。
+このプロジェクトは、このプロジェクトは、論文 "Unbounded: A Generative Infinite Game of Character Life Simulation" をベースにした、キャラクターシミュレーションゲームの対話システムの実装です。AIを活用して、ユーザーが作成したキャラクターとインタラクティブな対話を楽しむことができます。
+上記論文の特に対話システムの部分のみが実装されています。AIを用いてキャラクターの性格や行動を動的に生成し、ユーザーとの自然な対話を実現します。
 
 ## 機能
 
@@ -55,7 +54,7 @@ streamlit run main.py
 
 3. ゲーム内での操作:
    - テキスト入力欄にアクションを入力
-   - - キャラクターとの対話や環境の移動が可能
+     - キャラクターとの対話や環境の移動が可能
      - 空腹度が100，エネルギーが0にならないようにアクションを取って下さい
    - 「送信」ボタンでアクションを実行
    - サイドバーでステータスと環境情報を確認
@@ -95,6 +94,20 @@ streamlit run main.py
 - `usr_simulation()`: ユーザー入力の処理
 - `world_simulation()`: ゲーム世界の更新
 - 各種ヘルパーメソッド
+
+## 参考文献
+このプロジェクトは以下の論文を基にしています：
+```bash
+@misc{li2024unboundedgenerativeinfinitegame,
+      title={Unbounded: A Generative Infinite Game of Character Life Simulation}, 
+      author={Jialu Li and Yuanzhen Li and Neal Wadhwa and Yael Pritch and David E. Jacobs and Michael Rubinstein and Mohit Bansal and Nataniel Ruiz},
+      year={2024},
+      eprint={2410.18975},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.18975}, 
+}
+```
 
 ## 注意事項
 
