@@ -96,7 +96,7 @@ streamlit run main.py
 - 各種ヘルパーメソッド
 
 ## 参考文献
-このプロジェクトは以下の論文を基にしています：
+以下の論文を基にしています：
 ```bash
 @misc{li2024unboundedgenerativeinfinitegame,
       title={Unbounded: A Generative Infinite Game of Character Life Simulation}, 
