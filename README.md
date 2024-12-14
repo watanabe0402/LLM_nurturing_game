@@ -1,6 +1,6 @@
 # LLM_nurturing_game
-このプロジェクトは、このプロジェクトは、論文 "Unbounded: A Generative Infinite Game of Character Life Simulation" をベースにした、キャラクターシミュレーションゲームの対話システムの実装です。AIを活用して、ユーザーが作成したキャラクターとインタラクティブな対話を楽しむことができます。
-上記論文の特に対話システムの部分のみが実装されています。AIを用いてキャラクターの性格や行動を動的に生成し、ユーザーとの自然な対話を実現します。
+このプロジェクトは、論文 "Unbounded: A Generative Infinite Game of Character Life Simulation" の対話システムに焦点を当てた実装です。
+大規模言語モデル（LLM）を活用して、ユーザーが作成したオリジナルキャラクターと動的で自然な対話を楽しむことができます。
 
 ## 機能
 
