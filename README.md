@@ -13,7 +13,7 @@ LLMを用いた育成ゲーム
 
 ## 必要条件
 
-- Python 3.7以上
+- Python 3.10以上
 - OpenAI API キー
 - 以下のPythonパッケージ:
   - openai
@@ -26,7 +26,7 @@ LLMを用いた育成ゲーム
 1. リポジトリをクローン:
 ```bash
 git clone [repository-url]
-cd character-simulation-game
+cd LLM_nurturing_game
 ```
 
 2. 必要なパッケージをインストール:
@@ -43,6 +43,7 @@ export OPENAI_API_KEY='your-api-key-here'
 
 1. アプリケーションの起動:
 ```bash
+cd LLM_nurturing_game/src
 streamlit run main.py
 ```
 
@@ -54,6 +55,8 @@ streamlit run main.py
 
 3. ゲーム内での操作:
    - テキスト入力欄にアクションを入力
+   - - キャラクターとの対話や環境の移動が可能
+     - 空腹度が100，エネルギーが0にならないようにアクションを取って下さい
    - 「送信」ボタンでアクションを実行
    - サイドバーでステータスと環境情報を確認
    - 必要に応じて「ゲームをリセット」ボタンで初期状態に戻る
@@ -67,7 +70,7 @@ streamlit run main.py
 - 衛生状態 (100%が最適)
 
 ### 環境システム
-- 最大7つの異なる環境を生成
+- 5つの異なる環境を生成
 - 各環境は詳細な説明付き
 - 環境間の移動が可能
 
@@ -98,7 +101,3 @@ streamlit run main.py
 - OpenAI APIの利用には有効なAPIキーが必要です
 - APIの使用には料金が発生する場合があります
 - 大量のAPIリクエストを生成する可能性があるため、使用量に注意してください
-
-## ライセンス
-
-[ライセンス情報を記載]
